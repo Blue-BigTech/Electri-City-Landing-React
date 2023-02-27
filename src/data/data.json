@@ -1,0 +1,27 @@
+[
+    {
+        "title" : "UniCred",
+        "description" : "UniCred is a crypto asset that provides opportunity to the public to \"flatten the curve\" when it comes their home country's currency inflating.\nUniCred at its core is methodized to provide a decentralized benchmark currency in order to circumvent increasing international exchange fees.\nThere are 15 predominant currencies to which this benchmark applies : United States Dollar, Sterling Pound, Canadian Dollar, Swiss...\nUniCred will collect a transaction fee and will available in CoinMarketCap in March 2023.",
+        "to" : "/unicred"
+    },
+    {
+        "title" : "OceanX",
+        "description" : "Join Ocean+ and support us in clearing micro-plastics from the water so that human and marine life can be protected.",
+        "to" : "/oceanx"
+    },
+    {
+        "title" : "Events",
+        "description" : "ElectriCity is developing prototypes to evolve into a self-sustaining, harmless technology protecting its biodiversity and the world’s interest around the globe.",
+        "to" : "/events"
+    },
+    {
+        "title" : "Roadmap",
+        "description" : "January ~ December Check for Nurtle’s efficiency. (Late January - Late July).",
+        "to" : "/roadmap"
+    },
+    {
+        "title" : "About Us!",
+        "description" : "Who Am I? and Why Am I Doing This?",
+        "to" : "/about"
+    }
+]

@@ -5,18 +5,24 @@ import * as React from 'react';
 // import MenuItem from '@mui/material/MenuItem';
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import LogoPng from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 import { 
   AppBar,
+  Avatar,
   Button,
   Box,
   Container,
+  CssBaseline,
   Drawer,
   IconButton,
+  MenuItem,
   Tooltip,
   Toolbar,
   Typography
 } from '@mui/material';
-const menus = ['UniCred', 'Oceant', 'Events', 'Roadmap', 'About Us!'];
+import Data from '../data/data.json';
+
+// import './LogoBar.css';
 
 function LogoBar() {
   const [open, setOpen] = React.useState(false);
@@ -27,18 +33,23 @@ function LogoBar() {
   const RightMenu = () => {
     return (
       <Box component="div" style={{ width : 300, background : '#161751', height : "100%"}}>
-
+        <Avatar src={LogoPng} style={{ width : 40, padding: "1rem", margin: "0.5rem auto"}}/>
+        {Data.map((menu, index) => (
+          <MenuItem key={index} style={{margin : '0 10%'}} component={Link} to={menu.to}>
+            <Typography textAlign="center" color={'white'} style={{width : '100%'}}>{menu.title}</Typography>
+          </MenuItem>
+        ))}
       </Box>
     );
   };
 
   return (
-    <AppBar position="static" style={{ background : '#161751' }}>
+    <AppBar component="nav" style={{ background : '#161751' }}>
       <Container maxWidth="x2">
         <Toolbar sx={{ justifyContent: "space-between" }}>
           <Tooltip title="Home">
             <IconButton>
-              <img src={LogoPng} style={{ height : 80 }}/>
+              <img src={LogoPng} style={{ height : 70, margin : 20, marginLeft : 0 }}/>
               <Typography style={{color : 'white'}}>ElectriCity</Typography>
             </IconButton>
           </Tooltip>
@@ -64,6 +75,7 @@ function LogoBar() {
           </Drawer>
         </Toolbar>
       </Container>
+      <CssBaseline />
     </AppBar>
   );
 }
