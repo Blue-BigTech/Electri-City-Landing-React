@@ -1,0 +1,34 @@
+.bg-img-roadmap {
+  background-image: url("../assets/Roadmap.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10vh 0;
+}
+
+.bg-img-about {
+  background-image: url("../assets/Roadmap.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10vh 0 0 0;
+}
+
+.padding-lr-5 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.about-mark-img {
+  margin : 5vw;
+  width: 25%;
+  height: auto;
+}
+
+.center {
+  margin: auto;
+}
+
+.triple-width {
+  width: 33.3%;
+}

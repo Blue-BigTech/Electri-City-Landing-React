@@ -35,7 +35,6 @@ function PageItem({title, description, bg, height, to}) {
             <Button 
               variant="outlined" 
               href={to}
-            //   color='white'
               sx={{
                 ':hover' : {borderColor: 'primary', color:'primary'},
                 borderColor : 'white',
