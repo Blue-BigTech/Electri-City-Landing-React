@@ -1,3 +1,8 @@
+p {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
 .bg-img-roadmap {
   background-image: url("../assets/Roadmap.jpg");
   background-repeat: no-repeat;
@@ -14,9 +19,14 @@
   padding: 10vh 0 0 0;
 }
 
-.padding-lr-5 {
+.padding-lr-10 {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.padding-lr-5vw {
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .about-mark-img {
@@ -42,13 +52,33 @@
   padding: 15vh 0;
 }
 
-.ocean-banner-title {
+.unicred-banner {
+  width: 100%;
+  background-image: url("../assets/UniCred.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  padding: 15vh 0;
+}
+
+.ocean-banner-title, .unicred-banner-title {
   font-size: 50px;
+}
+.unicred-banner-description {
+  font-size: 20px;
 }
 .ocean-banner-body {
   width: 100%;
   background-image: url("../assets/ocean-bg1.png");
   background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+}
+
+.nurtle-banner-body {
+  width: 100%;
+  background-image: url("../assets/NurtleBanner.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -61,9 +91,39 @@
   background-position: center;
   padding: 5vh 0;
 }
+
+.smaller-banner {
+  width: 100%;
+  background-image: url("../assets/About.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20vh 0;
+}
+
 .ocean-body-abstract {
   width: 100%;
-  padding: 10vh 0;
+  padding-top : 10vh;
+  padding-bottom: 10vh;
+}
+
+.unicred-abstract {
+  width: 100%;
+  background-image: url("../assets/ocean-bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.unitrade-abstract {
+  width: 100%;
+  background-color: #16175188;
+  background-size: cover;
+  background-position: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .img-original {
@@ -80,12 +140,24 @@
   text-align: left;
 }
 
+.content-center {
+  text-align: center;
+}
+
 .text-size-big {
   font-size: 3vw;
 }
 
 .text-size-middle {
   font-size: 1vw;
+}
+
+.text-fixed-size-45 {
+  font-size: 45px;
+}
+
+.text-fixed-size-35 {
+  font-size: 35px;
 }
 
 .text-fixed-size-25 {
@@ -96,6 +168,18 @@
   font-size: 20px;
 }
 
+.text-fixed-size-15 {
+  font-size: 15px;
+}
+
 .margin-top-10vh {
   margin-top: 10vh;
+}
+
+.margin-top-15vh {
+  margin-top: 15vh;
+}
+
+.padding-bottom-10vh {
+  padding-bottom: 10vh;
 }

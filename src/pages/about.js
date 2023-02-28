@@ -11,7 +11,7 @@ export default function About() {
   return (
     <React.Fragment>
       <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>
-        <div className='bg-img-about padding-lr-5'>
+        <div className='bg-img-about padding-lr-10'>
           <Grid container spacing={1}>
             <Grid item md={5} xs={12}>
               <Typography variant='h2'>Who Am I? and Why Am I Doing This?</Typography>
