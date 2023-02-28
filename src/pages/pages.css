@@ -70,3 +70,32 @@
   width: 100%;
   height: auto;
 }
+
+.width-80 {
+  width: 80%;
+  margin: auto;
+}
+
+.content-left {
+  text-align: left;
+}
+
+.text-size-big {
+  font-size: 3vw;
+}
+
+.text-size-middle {
+  font-size: 1vw;
+}
+
+.text-fixed-size-25 {
+  font-size: 25px;
+}
+
+.text-fixed-size-20 {
+  font-size: 20px;
+}
+
+.margin-top-10vh {
+  margin-top: 10vh;
+}
