@@ -7,7 +7,7 @@
 }
 
 .bg-img-about {
-  background-image: url("../assets/Roadmap.jpg");
+  background-image: url("../assets/About.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -31,4 +31,42 @@
 
 .triple-width {
   width: 33.3%;
+}
+
+.ocean-banner {
+  width: 100%;
+  background-image: url("../assets/Ocean.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  padding: 15vh 0;
+}
+
+.ocean-banner-title {
+  font-size: 50px;
+}
+.ocean-banner-body {
+  width: 100%;
+  background-image: url("../assets/ocean-bg1.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+}
+
+.ocean-banner-bottom {
+  width: 100%;
+  background-image: url("../assets/ocean-bottom-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5vh 0;
+}
+.ocean-body-abstract {
+  width: 100%;
+  padding: 10vh 0;
+}
+
+.img-original {
+  width: 100%;
+  height: auto;
 }

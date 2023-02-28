@@ -1,6 +1,5 @@
 import * as React from 'react';
 import {
-  Box,
   Container,
   Grid,
   Typography
@@ -9,7 +8,7 @@ import './pages.css';
 export default function Roadmap() {
   return (
     <React.Fragment>
-      <Container maxWidth={false} disableGutters sx={{marginTop : '63px'}}>
+      <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>
         <div className='bg-img-roadmap'>
           <Grid container spacing={2}>
             <Grid item md={4} xs={1}></Grid>

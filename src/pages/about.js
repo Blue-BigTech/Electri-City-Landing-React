@@ -1,6 +1,5 @@
 import * as React from 'react';
 import {
-  Box,
   Grid,
   Container,
   Typography
@@ -11,7 +10,7 @@ import AboutMark from '../assets/about-mark.png';
 export default function About() {
   return (
     <React.Fragment>
-      <Container maxWidth={false} disableGutters sx={{marginTop : '63px'}}>
+      <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>
         <div className='bg-img-about padding-lr-5'>
           <Grid container spacing={1}>
             <Grid item md={5} xs={12}>

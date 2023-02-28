@@ -48,7 +48,7 @@ export default function LogoBar(props) {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar sx={{ background : '#161751', padding : '20px' }}>
+      <AppBar sx={{ background : '#161751', padding : '40px 0' }}>
         <Container maxWidth="x2" sx={{padding : 0}}>
           <Toolbar sx={{ justifyContent: "space-between", minHeight:'70px' }}>
             <Tooltip title="Home">

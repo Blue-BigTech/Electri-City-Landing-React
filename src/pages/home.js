@@ -8,7 +8,7 @@ import Data from '../data/data.json';
 import PageItem from '../components/PageItem';
 
 import UniCred from '../assets/UniCred.jpg';
-import Ocean from '../assets/Ocean.png';
+import Ocean from '../assets/Ocean.jpg';
 import About from '../assets/About.jpg';
 import Roadmap from '../assets/Roadmap.jpg';
 
@@ -16,7 +16,7 @@ export default function Home(props) {
 
   return (
     <React.Fragment>
-      <Container maxWidth={false} disableGutters sx={{marginTop : '63px'}}>
+      <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>
         <Box sx={{ my: 1, margin : 0, padding : 0 }}>
           <PageItem 
             title={Data[0].title}
