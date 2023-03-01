@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import {
   Container,
   Grid,
@@ -9,6 +10,10 @@ import Item1 from '../assets/ocean-item-1.jpg';
 import Item2 from '../assets/ocean-item-2.jpg';
 import Item3 from '../assets/ocean-item-3.jpg';
 export default function OceanX() {
+  useEffect(() => {
+    document.title = 'Ocean - ElectriCity';
+  }, []);
+
   return (
     <React.Fragment>
       <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>

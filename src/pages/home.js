@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import {
     Box,
     Container
@@ -11,9 +12,13 @@ import UniCred from '../assets/UniCred.jpg';
 import Ocean from '../assets/Ocean.jpg';
 import About from '../assets/About.jpg';
 import Roadmap from '../assets/Roadmap.jpg';
+import Event from '../assets/event-banner.jpg';
 
 export default function Home(props) {
-
+  useEffect(() => {
+    document.title = 'ElectriCity';
+  }, []);
+  
   return (
     <React.Fragment>
       <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>
@@ -35,7 +40,7 @@ export default function Home(props) {
           <PageItem 
             title={Data[2].title}
             description={Data[2].description}
-            bg={UniCred}
+            bg={Event}
             height="400px"
             to={Data[2].to}
           />

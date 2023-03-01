@@ -1,4 +1,6 @@
 import * as React from 'react';
+import { useEffect } from 'react';
+
 import {
   Grid,
   Container,
@@ -8,10 +10,14 @@ import './pages.css';
 import AboutMark from '../assets/about-mark.png';
 
 export default function About() {
+  useEffect(() => {
+    document.title = 'About Us - ElectriCity';
+  }, []);
+
   return (
     <React.Fragment>
       <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>
-        <div className='bg-img-about padding-lr-5'>
+        <div className='bg-img-about padding-lr-10'>
           <Grid container spacing={1}>
             <Grid item md={5} xs={12}>
               <Typography variant='h2'>Who Am I? and Why Am I Doing This?</Typography>
