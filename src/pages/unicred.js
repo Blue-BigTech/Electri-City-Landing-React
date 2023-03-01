@@ -28,19 +28,19 @@ export default function UniCred() {
                 <p className='content-left text-fixed-size-35' textAlign="left">
                   Company description
                 </p>
-                <p className='content-left text-fixed-size-15' textAlign="left">
+                <p className='content-left text-fixed-size-20' textAlign="left">
                   ElectriCity is developing prototypes to evolve into a self-sustaining, harmless technology protecting its biodiversity and the world’s interest around the globe.
                 </p>
-                <p className='content-left text-fixed-size-15' textAlign="left">
+                <p className='content-left text-fixed-size-20' textAlign="left">
                   ElectriCity´s main goals are to produce these 3 projects in the coming years: UniCred (UNCR is the 1st FOREX crypto asset exchange with FIAT currencies in the world), Nurtle (Micro-plastic collector) and UniTrade (A Crypto/FOREX platform designed to stop the corruption of the crypto market). These projects are the base of ElectriCity and the future of the world.
                 </p>
-                <p className='content-left text-fixed-size-15' textAlign="left">
+                <p className='content-left text-fixed-size-20' textAlign="left">
                   Do you want to be a part of  it?
                 </p><br/>
-                <p className='content-left text-fixed-size-15' textAlign="left">
+                <p className='content-left text-fixed-size-20' textAlign="left">
                   Join us at ElectriCity Tech Ltd.
                 </p>
-                <p className='content-left text-fixed-size-15' textAlign="left">
+                <p className='content-left text-fixed-size-20' textAlign="left">
                   Help us shape the future.
                 </p>
               </div>

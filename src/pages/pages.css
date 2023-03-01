@@ -61,6 +61,15 @@ p {
   padding: 15vh 0;
 }
 
+.event-banner {
+  width: 100%;
+  background-image: url("../assets/event-banner.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  padding: 15vh 0;
+}
+
 .unitrade-banner {
   width: 100%;
   background-image: url("../assets/UniTradeBg.jpg");
@@ -150,6 +159,10 @@ p {
   margin: auto;
 }
 
+.padding-90 {
+  padding-left : 10%;
+  padding-right : 10%;
+}
 .content-left {
   text-align: left;
 }
