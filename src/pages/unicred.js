@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import {
   Container,
   Grid,
@@ -14,6 +15,10 @@ import NurtleImg from '../assets/nurtle.jpg';
 import UniCredLogoImg from '../assets/UniCredLogo.png';
 
 export default function UniCred() {
+  useEffect(() => {
+    document.title = 'UniCred - ElectriCity';
+  }, []);
+
   return (
     <React.Fragment>
       <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>

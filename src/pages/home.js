@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import {
     Box,
     Container
@@ -14,7 +15,10 @@ import Roadmap from '../assets/Roadmap.jpg';
 import Event from '../assets/event-banner.jpg';
 
 export default function Home(props) {
-
+  useEffect(() => {
+    document.title = 'ElectriCity';
+  }, []);
+  
   return (
     <React.Fragment>
       <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>

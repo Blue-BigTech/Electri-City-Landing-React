@@ -1,4 +1,6 @@
 import * as React from 'react';
+import { useEffect } from 'react';
+
 import {
   Grid,
   Container,
@@ -8,6 +10,10 @@ import './pages.css';
 import AboutMark from '../assets/about-mark.png';
 
 export default function About() {
+  useEffect(() => {
+    document.title = 'About Us - ElectriCity';
+  }, []);
+
   return (
     <React.Fragment>
       <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>

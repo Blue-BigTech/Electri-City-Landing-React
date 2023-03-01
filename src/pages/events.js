@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import {
   Container,
   Grid,
@@ -13,6 +14,10 @@ import LondonImg from '../assets/event-london.jpg';
 import QuestionImg from '../assets/question.png';
 
 export default function Event() {
+  useEffect(() => {
+    document.title = 'Events - ElectriCity';
+  }, []);
+
   return (
     <React.Fragment>
       <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>

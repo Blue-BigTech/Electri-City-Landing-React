@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import {
   Container,
   Grid,
@@ -6,6 +7,10 @@ import {
 } from '@mui/material';
 import './pages.css';
 export default function Roadmap() {
+  useEffect(() => {
+    document.title = 'Roadmap - ElectriCity';
+  }, []);
+
   return (
     <React.Fragment>
       <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>
