@@ -11,6 +11,8 @@ import Uni3Img from '../assets/Uni3.png';
 import UniChatImg from '../assets/UniChat.png';
 import UniWalletImg from '../assets/UniWallet.png';
 import NurtleImg from '../assets/nurtle.jpg';
+import UniCredLogoImg from '../assets/UniCredLogo.png';
+
 export default function UniCred() {
   return (
     <React.Fragment>
@@ -45,7 +47,7 @@ export default function UniCred() {
             </Grid>
           </Grid>
         </div>
-        <div className='unicred-banner padding-lr-10'>
+        <div className='unitrade-banner padding-lr-10'>
           <Grid container spacing={0}>
             <Grid item md={12} xs={12}>
               <div className='unitrade-abstract padding-lr-5vw'>
@@ -178,6 +180,38 @@ export default function UniCred() {
         </div>
         <div className='smaller-banner'>
           <p className='ocean-banner-title'>Smaller Projects</p>
+        </div>
+        <div className="ocean-banner-body">
+          <div className='width-90 padding-bottom-10vh'>
+            <Grid container spacing={0} display={{md : 'none', xs : 'flex'}}>
+              <Grid item xs={12}>
+                <img className='img-original margin-top-10vh' src={UniCredLogoImg}/>
+              </Grid>
+              <Grid item xs={12}>
+                <div className='margin-top-10vh'>
+                  <p className='text-fixed-size-45'>UniCred</p>
+                  <p className='text-fixed-size-20'>UniCred is a crypto asset that provides opportunity to the public to "flatten the curve" when it comes their home country's currency inflating.</p>
+                  <p className='text-fixed-size-20'>UniCred at its core is methodized to provide a decentralized benchmark currency in order to circumvent increasing international exchange fees. There are 15 predominant currencies to which this benchmark applies : United States Dollar, Sterling Pound, Canadian Dollar, Swiss...</p>
+                  <p className='text-fixed-size-20'>UniCred will collect a transaction fee and will available in CoinMarketCap in March 2023.</p>
+                </div>
+              </Grid>
+            </Grid>
+
+            <Grid container spacing={2} display={{xs : 'none', md : 'flex'}}>
+              <Grid item md={8}>
+                <div className='margin-top-10vh'>
+                  <p className='text-fixed-size-45'>UniCred</p>
+                  <p className='text-fixed-size-20'>UniCred is a crypto asset that provides opportunity to the public to "flatten the curve" when it comes their home country's currency inflating.</p>
+                  <p className='text-fixed-size-20'>UniCred at its core is methodized to provide a decentralized benchmark currency in order to circumvent increasing international exchange fees. There are 15 predominant currencies to which this benchmark applies : United States Dollar, Sterling Pound, Canadian Dollar, Swiss...</p>
+                  <p className='text-fixed-size-20'>UniCred will collect a transaction fee and will available in CoinMarketCap in March 2023.</p>
+                </div>
+              </Grid>
+              <Grid item md={1}/>
+              <Grid item md={3}>
+                <img className='img-original margin-top-10vh' src={UniCredLogoImg}/>
+              </Grid>
+            </Grid>
+          </div>
         </div>
       </Container>
     </React.Fragment>

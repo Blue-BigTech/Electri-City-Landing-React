@@ -61,6 +61,15 @@ p {
   padding: 15vh 0;
 }
 
+.unitrade-banner {
+  width: 100%;
+  background-image: url("../assets/UniTradeBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15vh 0;
+}
+
 .ocean-banner-title, .unicred-banner-title {
   font-size: 50px;
 }
@@ -133,6 +142,11 @@ p {
 
 .width-80 {
   width: 80%;
+  margin: auto;
+}
+
+.width-90 {
+  width: 90%;
   margin: auto;
 }
 
