@@ -9,16 +9,16 @@ import './pages.css';
 import Item1 from '../assets/ocean-item-1.jpg';
 import Item2 from '../assets/ocean-item-2.jpg';
 import Item3 from '../assets/ocean-item-3.jpg';
-export default function OceanX() {
+export default function Nurtle() {
   useEffect(() => {
-    document.title = 'Ocean - ElectriCity';
+    document.title = 'Nurtle - ElectriCity';
   }, []);
 
   return (
     <React.Fragment>
       <Container maxWidth={false} disableGutters sx={{marginTop : '103px'}}>
         <div className='ocean-banner'>
-          <p className='ocean-banner-title'>OceanX</p>
+          <p className='ocean-banner-title'>Nurtle</p>
         </div>
         <div className='ocean-banner-body'>
           <Grid container spacing={2}>
