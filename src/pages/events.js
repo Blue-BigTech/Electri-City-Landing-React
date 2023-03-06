@@ -36,7 +36,7 @@ export default function Event() {
             </Grid>
           </Grid>
         </div>
-        <div className='padding-90 ocean-banner-body'>
+        <div className='padding-90 ocean-banner-body padding-bottom-10vh'>
           <Grid container spacing={5}>
             <Grid item md={12} xs={12}>
               <div className='padding-lr-10'>

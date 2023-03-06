@@ -11,7 +11,6 @@ import Uni2Img from '../assets/Uni2.png';
 import Uni3Img from '../assets/Uni3.png';
 import UniChatImg from '../assets/UniChat.png';
 import UniWalletImg from '../assets/UniWallet.png';
-import NurtleImg from '../assets/nurtle.jpg';
 import UniCredLogoImg from '../assets/UniCredLogo.png';
 
 export default function UniCred() {
@@ -123,62 +122,6 @@ export default function UniCred() {
               </Grid>
               <Grid item md={4}>
                 <img className='img-original margin-top-10vh' src={Uni3Img}/>
-              </Grid>
-            </Grid>
-          </div>
-        </div>
-        <div className="nurtle-banner-body">
-          <div className='width-80 padding-bottom-10vh'>
-            <Grid container spacing={0} display={{md : 'none', xs : 'flex'}}>
-              <Grid item xs={12}>
-                <img className='img-original margin-top-10vh' src={NurtleImg}/>
-              </Grid>
-              <Grid item xs={12}>
-                <p className='content-center text-fixed-size-45 margin-top-10vh'>
-                  Nurtle
-                </p>
-                <p className='content-left text-fixed-size-20'>
-                  Nurtle offers a fresh perspective on how to get rid of micro-plastics and other micro-elements from different bodies of water, e.g. ponds, lakes, rivers…etc. In the future, we will expand to larger bodies of water like oceans and seas. Everyone has been making hollow promises to clean up the environment and the seas for the past ten years. OceanX is different because it offers a real solution to the issue before making any promises despite it having a working prototype that offers hope for this persistent issue that society keeps putting off.
-                </p>
-                <p className='content-left text-fixed-size-20'>
-                  There are numerous risks associated with marine pollution that will be harmful not only to the health of marine animals but also to humankind.
-                </p>
-                <p className='content-left text-fixed-size-20'>
-                  This design is the first of many that will aid to the preservation of the environment and the first step to battling those empty promises that silence the voice of reason and truth. 
-                </p>
-                <p className='content-left text-fixed-size-20'>
-                  Join us in our mission to save the world and its inhabitants!
-                </p>
-                <p className='content-left text-fixed-size-20'>
-                  The final design is complete under the newly formed company ElectriCity Tech Ltd. and every designed published is company property.
-                </p>
-              </Grid>
-            </Grid>
-
-            <Grid container spacing={2} display={{xs : 'none', md : 'flex'}}>
-              <Grid item md={6}>
-                <img className='img-original margin-top-10vh' src={NurtleImg}/>
-              </Grid>
-              <Grid item md={1}/>
-              <Grid item md={5}>
-                <p className='content-center text-fixed-size-45 margin-top-10vh'>
-                  Nurtle
-                </p>
-                <p className='content-left text-fixed-size-20'>
-                  Nurtle offers a fresh perspective on how to get rid of micro-plastics and other micro-elements from different bodies of water, e.g. ponds, lakes, rivers…etc. In the future, we will expand to larger bodies of water like oceans and seas. Everyone has been making hollow promises to clean up the environment and the seas for the past ten years. OceanX is different because it offers a real solution to the issue before making any promises despite it having a working prototype that offers hope for this persistent issue that society keeps putting off.
-                </p>
-                <p className='content-left text-fixed-size-20'>
-                  There are numerous risks associated with marine pollution that will be harmful not only to the health of marine animals but also to humankind.
-                </p>
-                <p className='content-left text-fixed-size-20'>
-                  This design is the first of many that will aid to the preservation of the environment and the first step to battling those empty promises that silence the voice of reason and truth. 
-                </p>
-                <p className='content-left text-fixed-size-20'>
-                  Join us in our mission to save the world and its inhabitants!
-                </p>
-                <p className='content-left text-fixed-size-20'>
-                  The final design is complete under the newly formed company ElectriCity Tech Ltd. and every designed published is company property.
-                </p>
               </Grid>
             </Grid>
           </div>

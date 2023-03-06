@@ -2,6 +2,7 @@ import * as React from 'react';
 import { 
     Box,
     Button,
+    Link,
     Typography
 } from '@mui/material';
   
@@ -33,6 +34,7 @@ function PageItem({title, description, bg, height, to}) {
                 {description.length >50 ? description.substr(0, 50) + "..." : description}
             </Typography>
             <Button 
+              component={Link}
               variant="outlined" 
               href={to}
               sx={{

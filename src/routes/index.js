@@ -4,7 +4,7 @@ import Roadmap  from "../pages/roadmap";
 import LogoBar from "../components/LogoBar";
 import ScrollTop from "../components/ScrollTop";
 import About from "../pages/about";
-import OceanX from "../pages/oceanx";
+import Nurtle from "../pages/nurtle";
 import UniCred from "../pages/unicred";
 import Event from "../pages/events";
 import Error from "../pages/error";
@@ -19,7 +19,7 @@ export const Links = () => {
                 <Route path="/events" element={<Event/>}/>
                 <Route path="/roadmap" element={<Roadmap />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/oceanx" element={<OceanX />} />
+                <Route path="/nurtle" element={<Nurtle />} />
                 <Route path="*" element={<Error />} />
             </Routes>
             <Footer />
