@@ -1,0 +1,4 @@
+# Enable .htaccess for /var/www/html directory and its subdirectories
+<Directory "/var/www/html">
+Allowoverride all
+</Directory>
